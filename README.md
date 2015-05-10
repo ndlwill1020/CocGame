@@ -1,2 +1,2 @@
 # CocGame
-cocos2dx coc_demo
+cocos2dx coc_demo game
