@@ -10,6 +10,21 @@
     <Filter Include="resource">
       <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\Publics">
+      <UniqueIdentifier>{13c70526-0fa5-471a-90ef-03d2043db959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\UI">
+      <UniqueIdentifier>{3ace552f-aaa1-49e6-bec2-8c4b18e7885c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Utils">
+      <UniqueIdentifier>{9821fdb0-cc35-4538-8b2d-3314d27d6b25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Sqlite3">
+      <UniqueIdentifier>{23b9089d-5223-466d-bb80-24d70204194a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\CSVParser">
+      <UniqueIdentifier>{ec6380c0-7822-470a-b06a-c18bc1fa391b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -18,8 +33,23 @@
     <ClCompile Include="..\Classes\AppDelegate.cpp">
       <Filter>Classes</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
-      <Filter>Classes</Filter>
+    <ClCompile Include="..\Classes\WelcomeScene.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GlobalManager.cpp">
+      <Filter>Classes\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HomeScene.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DBManager.cpp">
+      <Filter>Classes\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sqlite3.c">
+      <Filter>Classes\Sqlite3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSVParser.cpp">
+      <Filter>Classes\CSVParser</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -29,8 +59,32 @@
     <ClInclude Include="..\Classes\AppDelegate.h">
       <Filter>Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\HelloWorldScene.h">
-      <Filter>Classes</Filter>
+    <ClInclude Include="..\Classes\Public.h">
+      <Filter>Classes\Publics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WelcomeScene.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameConstants.h">
+      <Filter>Classes\Publics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GlobalManager.h">
+      <Filter>Classes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HomeScene.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DBManager.h">
+      <Filter>Classes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sqlite3.h">
+      <Filter>Classes\Sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sqlite3ext.h">
+      <Filter>Classes\Sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSVParser.h">
+      <Filter>Classes\CSVParser</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
